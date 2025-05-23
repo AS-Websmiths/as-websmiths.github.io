@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import ASLogo from "../pictures/AS.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,11 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-brand">
-          <png></png>
+          <img
+            src={ASLogo}
+            alt="AS Logo"
+            style={{ height: "80px", width: "auto", objectFit: "contain" }}
+          />
         </div>
 
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>

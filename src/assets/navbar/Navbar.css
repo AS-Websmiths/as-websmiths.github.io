@@ -12,7 +12,7 @@ body {
 
 /* Navbar styles */
 .navbar {
-  background-color: #333;
+  background: #060F38;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -30,17 +30,19 @@ body {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 .nav-links li {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .nav-links a {
-  color: white;
+  color: #7187DA;  
   text-decoration: none;
   font-size: 1rem;
+    font-family: 'M PLUS Code Latin', monospace;
+
 }
 
 .nav-links a:hover {

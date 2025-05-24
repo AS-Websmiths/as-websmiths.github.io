@@ -76,12 +76,19 @@ body {
     right: 0;
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.3s ease-out;
+    padding: 0; /* Hide padding when closed */
+    margin: 0;  /* Hide margin when closed */
+    opacity: 0; /* Hide visually */
+    pointer-events: none; /* Prevent interaction */
+    transition: max-height 0.3s ease-out, opacity 0.2s;
   }
 
   .nav-links.open {
     max-height: 300px; /* enough for all links */
-    transition: max-height 0.3s ease-in;
+    padding: 1rem;     /* Restore padding when open */
+    opacity: 1;        /* Show when open */
+    pointer-events: auto;
+    transition: max-height 0.3s ease-in, opacity 0.2s;
   }
 
   .nav-links li {

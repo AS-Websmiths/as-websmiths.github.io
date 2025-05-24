@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './assets/navbar/Navbar'
+import Navbar from './navbar/Navbar'
 
 const App = () => {
   return (

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <a href = "/home">
+        <a href = "/">
         <div className="navbar-brand">
           <img
             src={ASLogo}

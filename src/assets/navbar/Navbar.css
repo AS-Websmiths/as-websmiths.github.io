@@ -69,7 +69,7 @@ body {
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
-    background-color: #192971;
+    background-color: #333;
     position: absolute;
     top: 100%;
     left: 0;
@@ -88,7 +88,7 @@ body {
     padding: 1rem;     /* Restore padding when open */
     opacity: 1;        /* Show when open */
     pointer-events: auto;
-    transition: max-height 0.3s ease-in, opacity .4s;
+    transition: max-height 0.3s ease-in, opacity 0.2s;
   }
 
   .nav-links li {
@@ -98,8 +98,5 @@ body {
 
   .hamburger {
     display: flex;
-  }
-  .nav-links a {
-    color: #a8b4e0;
   }
 }

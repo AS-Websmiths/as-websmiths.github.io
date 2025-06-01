@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../assets/navbar/Navbar'
+import Navbar from '../assets/navbar/Navbar.jsx'
 import "./css/Home.css"
 import SemiOval from '../assets/SemiOval/SemiOval'
 import RotatingRing from '../assets/RotatingIcons/RotatingRing'

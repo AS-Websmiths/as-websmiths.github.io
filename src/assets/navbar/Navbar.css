@@ -29,19 +29,19 @@ body {
 .nav-links {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin-right: 10rem;
   padding: 1rem;
 }
 
 .nav-links li {
-  margin-left: 1.5rem;
+  margin-left: 10rem;
 }
 
 .nav-links a {
   color: #7187DA;  
   text-decoration: none;
-  font-size: 1.5rem;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-size: 2rem;
+  font-family: 'Montserrat';
 
 }
 

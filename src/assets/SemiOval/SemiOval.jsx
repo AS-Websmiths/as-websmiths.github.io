@@ -8,7 +8,7 @@ const SemiOval = () => {
   const updatePosition = () => {
     if (svgRef.current) {
       const height = svgRef.current.getBoundingClientRect().height;
-      svgRef.current.style.marginTop = `-${height}px`;
+      svgRef.current.style.marginTop = `-${height+40}px`;
     }
   };
 

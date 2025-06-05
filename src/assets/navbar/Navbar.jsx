@@ -17,7 +17,7 @@ const Navbar = () => {
           <img
             src={ASLogo}
             alt="AS Logo"
-            style={{ height: "80px", width: "auto", objectFit: "contain" }}
+            style={{ height: "120px", width: "auto", objectFit: "contain" }}
           />
         </div>
         </a>
@@ -25,17 +25,17 @@ const Navbar = () => {
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li>
             <a href="/about" onClick={() => setIsOpen(false)}>
-              About
+              about
             </a>
           </li>
           <li>
             <a href="/service" onClick={() => setIsOpen(false)}>
-              Service
+              service
             </a>
           </li>
           <li>
             <a href="/contact" onClick={() => setIsOpen(false)}>
-              Contact
+              contact
             </a>
           </li>
         </ul>
